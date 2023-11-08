@@ -27,7 +27,9 @@ const Header = () => {
 
         <form className={styles.form}>
           <div className={styles.icon}>
-            <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#search`} />
+            <svg>
+              <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#search`} />
+            </svg>
           </div>
           <div className={styles.input}>
             <input
